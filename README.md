@@ -3,12 +3,12 @@
 Fiona plugin for summary statistics of GeoJSON feature properties
 
 Install
-```
-$pip install "git+https://github.com/perrygeo/fio-stats.git#egg=fio-stats"
+```bash
+$ pip install "git+https://github.com/perrygeo/fio-stats.git#egg=fio-stats"
 ```
 
 Use with JSON output
-```
+```bash
 $ fio dump ~/data/ballparks.geojson | fio stats
 [
   ...
